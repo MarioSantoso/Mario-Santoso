@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mario Joseph Ch_WebDev_Indobot Academy</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<nav class="navbar">
+	<div class="container">
+ 
+		<a href="#" class="logo">WebDev Mario Joseph Ch</a>
+		
+		<ul class="menu">
+			<li><a href="#">Program</a>
+                <ul>
+                    <li><a href="bmi.html">BMI</a></li>
+                    <li><a href="calculator.html">Calculator</a></li>
+                </ul>
+            </li>
+			<li><a href="#">Knowledge</a>
+				<ul>
+					<li><a href="rup.html">Apa itu RUP?</a></li>
+					<li><a href="erp.html">ERP</a></li>
+				</ul>
+			</li>
+			<li><a href="login.html">Keluar</a></li>
+		</ul>
+ 
+ 
+		<div class="tombol">
+			&#9776;
+		</div>
+ 
+	</div>
+</nav>
+ 
+	<div>
+		<center>
+			<marquee direction='left'><h1>Web Development Indobot Academy-Mario Joseph Ch</h1></marquee>
+			<marquee direction='right'><h1>Web ini berfokus pada pembuatan aplikasi pemograman dan pengetahuan di bidang Computer Science. Semoga anda menyukainya!</h1></marquee>
+			<img src="Math.jpg" align="center"/>
+			<img src="Computer Science.jpg" align="center"/>
+			<img src="Information Systems.jpg" align="center"/>
+		</center>
+	</div>
+ 
+	<script type="text/javascript">
+		// deklarasi tombol dan menu
+		const tombol = document.querySelector('.tombol');
+		const menu = document.querySelector('.menu');
+ 
+		// membuat event click
+		// pada saat tombol di click, tambahkan class aktif pada class menu
+		// saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+		tombol.addEventListener('click', () => {
+			menu.classList.toggle('aktif');
+		});
+	</script>
+</body>
+</html>
+<marquee direction='right'><footer><h1>@2024, Mario Joseph Ch</h1></footer></marquee>

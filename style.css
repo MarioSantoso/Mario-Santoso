@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, sans-serif;
+    background-image: url('Persib Bandung.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.navbar{
+	background: #48D1CC;
+	margin: 0;
+	padding: 20px 30px;
+}
+ 
+.logo{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ 
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+ 
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+nav ul {
+    background: #111;
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: #222;
+}
+ 
+nav ul li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+ 
+nav ul li a:hover{
+    color: #fff;
+}
+ 
+nav ul ul {
+    display: none;
+    background: #111;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    max-width: 300px;
+    width: auto;
+}
+ 
+nav ul ul li {
+    float: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    position: relative;
+}
+ 
+nav ul li:hover > ul {
+    display: block;
+}
+ 
+nav ul ul li a {
+    padding: 10px 40px;
+    color: #fff;
+}
+ 
+nav ul ul li a:hover {
+    background: #222;
+}
+ 
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top:0;
+    width: 200px;
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
